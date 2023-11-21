@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-![preview img](/preview.png)
+
 
 ## Run Locally
 
@@ -36,7 +36,4 @@ Go to the project directory
     php artisan storage:link
 ```
 
-#### Login
 
--   email = admin@example.com
--   password = 123
