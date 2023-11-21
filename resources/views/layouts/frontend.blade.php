@@ -89,7 +89,7 @@
               @endforeach
             </ul>
           </li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="{{ asset('frontend/contact.html') }}">Contact</a></li>
         </ul>
       </nav>
       <div id="mobile-menu-wrap"></div>
@@ -101,8 +101,8 @@
       </div>
       <div class="humberger__menu__contact">
         <ul>
-          <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-          <li>Free Shipping for all Order of $99</li>
+          <li><i class="fa fa-envelope"></i> rs7171507@gmail.com.com</li>
+          <li>Free Shipping for all Order of ₹99</li>
         </ul>
       </div>
     </div>
@@ -116,8 +116,8 @@
             <div class="col-lg-6 col-md-6">
               <div class="header__top__left">
                 <ul>
-                  <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                  <li>Free Shipping for all Order of $99</li>
+                  <li><i class="fa fa-envelope"></i> rs7171507@gmail.com</li>
+                  <li>Free Shipping for all Order of ₹99</li>
                 </ul>
               </div>
             </div>
@@ -180,7 +180,7 @@
                     @endforeach
                   </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="{{ asset('frontend/contact.html') }}">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -196,7 +196,7 @@
                   >
                 </li>
               </ul>
-              <div class="header__cart__price">item: <span>${{ $cartTotal }}</span></div>
+              <div class="header__cart__price">item: <span>₹{{ $cartTotal }}</span></div>
             </div>
           </div>
         </div>
@@ -224,7 +224,7 @@
                   <i class="fa fa-phone"></i>
                 </div>
                 <div class="hero__search__phone__text">
-                  <h5>+65 11.188.888</h5>
+                  <h5>7905176351</h5>
                   <span>support 24/7 time</span>
                 </div>
               </div>
@@ -247,9 +247,9 @@
                 <a href="./index.html"><img src="{{ asset('frontend/img/logo.png') }}" alt="" /></a>
               </div>
               <ul>
-                <li>Address: 60-49 Road 11378 New York</li>
-                <li>Phone: +65 11.188.888</li>
-                <li>Email: hello@colorlib.com</li>
+                <li>Address: Lovely Professional University, Punjab</li>
+                <li>Phone: 7905176351</li>
+                <li>Email: rs71715072gmail.com</li>
               </ul>
             </div>
           </div>
@@ -297,8 +297,8 @@
           <div class="col-lg-12">
             <div class="footer__copyright">
               <div class="footer__copyright__text">
-                <p>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <!-- <p>
+                 
                   Copyright &copy;
                   <script>
                     document.write(new Date().getFullYear());
@@ -306,8 +306,8 @@
                   All rights reserved | This template is made with
                   <i class="fa fa-heart" aria-hidden="true"></i> by
                   <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                </p>
+                  
+                </p> -->
               </div>
               <div class="footer__copyright__payment">
                 <img src="img/payment-item.png" alt="" />

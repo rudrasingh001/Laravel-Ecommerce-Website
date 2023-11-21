@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import axios from "axios";
 
-const Checkout = () => {
+const Checkout = () => {z
     const [carts, setCarts] = useState([]);
     const [total, setTotal] = useState(0);
     const [provinces, setProvinces] = useState([]);
@@ -225,7 +225,7 @@ const Checkout = () => {
                                         setShippingCostId(e.target.value)
                                     }
                                 >
-                                    <option value="">=== Choose ===</option>
+                                    <option value=""></option>
                                     {services.map((service, index) => {
                                         return (
                                             <option
